@@ -1,6 +1,6 @@
 # Verilog
 ## Basys 3 Artix-7 FPGA Board
-
+[Reference Manual](https://reference.digilentinc.com/basys3/refmanual)
 ## Vivado HL
 [Template Constraints File](https://github.com/trigomargarida/digitalsystems/blob/master/constraints_file)
 ### First System Basys3
