@@ -1,0 +1,12 @@
+module mux_2x1_3state (a0, a1, s, y );       
+   
+   input  s, a0, a1;                  
+   output y;   
+    
+    // bufif0 (out, in,  ctl);         
+    bufif0 b0 (y,   a0,  s);            //   ctl == 1: out = high-impedance;
+  
+    // bufif1 (out, in,  ctl);         
+    bufif1 b1 (y,   a1,  s);            //   ctl == 0: out = high-impedance;
+
+endmodule
